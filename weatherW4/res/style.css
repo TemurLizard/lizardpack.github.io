@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:rgb(46, 63, 95);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+}
+.weather-box p{
+    position: relative;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 8px 4px;
+}
+.weather-box {
+    text-align: center;
+}
+.weather-box img {
+    width: 60%;
+}
+.weather-box .temperature {
+    position: relative;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 6px 6px;
+}
+
